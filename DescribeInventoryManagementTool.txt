@@ -1,0 +1,1 @@
+Businesses use barcode inventory management systems to assign a number to each product they sell. They can associate several data points to the number, including the supplier, product dimensions, weight, and even variable data, such as how many are in stock.
