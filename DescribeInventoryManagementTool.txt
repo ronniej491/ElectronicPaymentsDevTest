@@ -1,1 +1,39 @@
-Businesses use barcode inventory management systems to assign a number to each product they sell. They can associate several data points to the number, including the supplier, product dimensions, weight, and even variable data, such as how many are in stock.
+Describe inventory management tool using items with serial numbers. 
+
+For this example i will describe a watch retailer in the online space who sells its products on Amazon, Overstock and new Egg. 
+This online retailer sells name brand watches and use quickbooks as thier inventory system for all items and orders.
+
+FOREACH item A Product specialist will physically go through each watch thats in the warehouse safe 
+and manually inspect and count inventory of each style.
+
+FOREACH item counted and inspected I will develope a web interface and sql server to allow the product specialist to upload to 
+market places, update market places and manage products inventory in quickbooks.
+
+
+LIST of wacthes, serial numbers, item details and inventory count
+--MEGALITH {sku, item deatils, inventoryCount}
+--Michael Kors {sku, item deatils, inventoryCount}
+--Fossil {sku, item deatils, inventoryCount}
+--Casio {sku, item deatils, inventoryCount}
+
+
+CREATE TABLE IN SQL DATABASE products
+SCAFFOLD DATABASE TABLES Web App Form
+
+OBATAIN BARCODE SCANNER
+
+Use the System.IO.Ports.dll SerialPort Class to pass data to CLIENT APP
+
+INPUT item details AND Inventory Count INTO Client App
+
+FOREACH Update endpoints with newly added Inventory Items
+
+If a item is sold, loss, or damage Update database and other endpoints the item status
+
+
+
+
+
+
+
+
