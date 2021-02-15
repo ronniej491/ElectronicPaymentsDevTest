@@ -8,7 +8,7 @@ namespace ChangeDue
     {
         static void Main(string[] args)
         {
-            decimal target = Decimal.Round(0.78m);
+            decimal target = Decimal.Round(2.78m);
 
 
             //Get the list of bill denominations from class DenominationsBills.cs static method GetDenominations()
